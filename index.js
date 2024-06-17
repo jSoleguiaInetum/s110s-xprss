@@ -11,6 +11,7 @@ var corsOptions = {
 }
 
 const inspectionsAll = require('./data/inspections.json');
+const inspection = require('./data/inspection.json');
 
 app.use(cors(corsOptions));
 
@@ -23,10 +24,16 @@ app.get('/', (req, res) => {
     res.send({message:'Holitas desde Express para SIIOS'});
 })
 
-app.get('/api/v1/s110s/inspections/all', (req, res) => {
+app.get('/api/v1/inspections/all', (req, res) => {
     // req.params recoge los datos de la url
     
     res.send(JSON.parse(inspectionsAll));
+});
+
+app.get('/api/v1/inspections/:id', (req, res) => {
+    // req.params recoge los datos de la url
+    let id = req.params.id;
+    res.send(JSON.parse(inspection));
 });
 
 // app.post('/addname', (req, res) => {
