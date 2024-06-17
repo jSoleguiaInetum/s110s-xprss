@@ -10,6 +10,8 @@ var corsOptions = {
     optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
 }
 
+const inspectionsAll = require('./data/inspections.json');
+
 app.use(cors(corsOptions));
 
 app.listen(process.env.PORT, () => {
@@ -18,14 +20,13 @@ app.listen(process.env.PORT, () => {
 
 
 app.get('/', (req, res) => {
-    res.send({message:'Holitas desde Express'});
+    res.send({message:'Holitas desde Express para SIIOS'});
 })
 
-app.get('/api/v1/euskoregite/:id', (req, res) => {
+app.get('/api/v1/s110s/inspections/all', (req, res) => {
     // req.params recoge los datos de la url
-    let id = req.params.id;
-    const date = new Date();
-    res.send({date: date, evaluationId: id, message:`Evaluación Euskoregite de: ${id}`});
+    
+    res.send(JSON.parse(inspectionsAll));
 });
 
 // app.post('/addname', (req, res) => {
