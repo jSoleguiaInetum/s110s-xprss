@@ -19,18 +19,22 @@ app.listen(process.env.PORT, () => {
     console.log('Listening on port: ', process.env.PORT);
 });
 
+const API_CALLS = {
+    allInspections: '/api/v1/inspections/all',
+    getInspection: '/api/v1/inspections/:id'
+}
 
 app.get('/', (req, res) => {
     res.send({message:'Holitas desde Express para SIIOS'});
 })
 
-app.get('/api/v1/inspections/all', (req, res) => {
+app.post(API_CALLS['allInspections'], (req, res) => {
     // req.params recoge los datos de la url
     
     res.send(inspectionsAll);
 });
 
-app.get('/api/v1/inspections/:id', (req, res) => {
+app.post(API_CALLS['getInspection'], (req, res) => {
     // req.params recoge los datos de la url
     let id = req.params.id;
     res.send(inspection);
