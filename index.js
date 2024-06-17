@@ -27,13 +27,13 @@ app.get('/', (req, res) => {
 app.get('/api/v1/inspections/all', (req, res) => {
     // req.params recoge los datos de la url
     
-    res.send(JSON.parse(inspectionsAll));
+    res.send(inspectionsAll);
 });
 
 app.get('/api/v1/inspections/:id', (req, res) => {
     // req.params recoge los datos de la url
     let id = req.params.id;
-    res.send(JSON.parse(inspection));
+    res.send(inspection);
 });
 
 // app.post('/addname', (req, res) => {
