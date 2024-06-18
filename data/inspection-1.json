@@ -1,0 +1,383 @@
+{
+	"idInspeccion": 1,
+	"codInspeccion": "000001-INSP",
+	"inspeccionCompartida": true,
+	"fechaPrevista": "2023-12-26 00:00 AM CET",
+	"esInspector": true,
+	"firmaInspector": null,
+	"firmaCentro": null,
+	"tipoInspeccion": {
+		"codigo": 2,
+		"descripcion": {
+			"es": "Tipo inspeccion 1",
+			"eu": "EU_Tipo inspeccion 1"
+		}
+	},
+	"documentos": null,
+	"inspector": {
+		"idInspector": 1,
+		"codigo": "AB80BU01"
+	},
+	"elemento": {
+		"tipoElemento": {
+			"idElemento": 1,
+			"descripcion": {
+				"es": "DEAS",
+				"eu": "EU_DEAS"
+			}
+		},
+		"idTipoElemento": 2042,
+		"codigoPublico": null,
+		"esCentroCES": false,
+		"descripcion": {
+			"es": "A18J-0575L GRUPO CORPORATIVO GFI NORTE SL",
+			"eu": "A18J-0575L GRUPO CORPORATIVO GFI NORTE SL"
+		},
+		"CCN": null,
+		"codigoOficial": null,
+		"ubicacion": {
+			"coordenadas": {
+				"x": 505748.711263335,
+				"y": 4789865.45941155
+			},
+			"provincia": {
+				"codigo": "48",
+				"descripcion": "Bizkaia"
+			},
+			"municipio": {
+				"codigo": "020",
+				"descripcion": "Bilbao"
+			},
+			"calle": {
+				"tipo": "CL",
+				"codigo": 134802000007040,
+				"descripcion": "Licenciado Poza"
+			},
+			"portal": {
+				"tipo": "0",
+				"codigo": 84802000123540,
+				"descripcion": "55"
+			},
+			"escalera": null,
+			"piso": null,
+			"puerta": null
+		},
+		"telefono": null,
+		"telefono2": null,
+		"email": null
+	},
+	"datosTitular": {
+		"tipoPersonalidad": {
+			"codigo": null,
+			"descripcion": {
+				"es": null,
+				"eu": null
+			}
+		},
+		"identificacion": null,
+		"nombre": null
+	},
+	"personaContacto": {
+		"nombre": "Antxon",
+		"apellido1": "Urrutia",
+		"apellido2": "segundoApe",
+		"telefono": "123456789",
+		"email": "AntxonUrrutia@emailmailprueba.test"
+	},
+	"gruposPreguntas": [
+			{
+				"idGrupoPreguntas": 8,
+				"desc": {
+					"es": "EQUIPAMIENTO Y PROCEDIMIENTOS",
+					"eu": "EU_EQUIPAMIENTO Y PROCEDIMIENTOS"
+				},
+				"preguntas": [
+					{
+						"idPregunta": 23,
+						"texto": {
+							"es": "Equipamiento y dotación de material quirúrgico",
+							"eu": "Equipamiento y dotación de material quirúrgico"
+						},
+						"desc": {
+							"es": "Equipamiento y dotación de material quirúrgico",
+							"eu": "EU_Equipamiento y dotación de material quirúrgico\n"
+						},
+						"tipoPregunta": {
+							"es": null,
+							"eu": null
+						},
+						"respuesta": null,
+						"tipoRespuesta": "1",
+						"respuestaEstandar": null,
+						"observaciones": null
+					},
+					{
+						"idPregunta": 24,
+						"texto": {
+							"es": "E.C.G",
+							"eu": "E.K.G"
+						},
+						"desc": {
+							"es": "Electrocardiograma",
+							"eu": "EU_Electrocardiograma"
+						},
+						"tipoPregunta": {
+							"es": null,
+							"eu": null
+						},
+						"respuesta": null,
+						"tipoRespuesta": "1",
+						"respuestaEstandar": null,
+						"observaciones": null
+					},
+					{
+						"idPregunta": 25,
+						"texto": {
+							"es": "Espirometría",
+							"eu": "EU_Espirometría"
+						},
+						"desc": {
+							"es": "Espirometría",
+							"eu": "EU_Espirometría"
+						},
+						"tipoPregunta": {
+							"es": null,
+							"eu": null
+						},
+						"respuesta": null,
+						"tipoRespuesta": "1",
+						"respuestaEstandar": null,
+						"observaciones": null
+					},
+					{
+						"idPregunta": 26,
+						"texto": {
+							"es": "Pulsioxímetro",
+							"eu": "EU_Pulsioxímetro"
+						},
+						"desc": {
+							"es": "Pulsioxímetro",
+							"eu": "EU_Pulsioxímetro"
+						},
+						"tipoPregunta": {
+							"es": null,
+							"eu": null
+						},
+						"respuesta": null,
+						"tipoRespuesta": "1",
+						"respuestaEstandar": null,
+						"observaciones": null
+					},
+					{
+						"idPregunta": 27,
+						"texto": {
+							"es": "Equipo de rayos X",
+							"eu": "EU_Equipo de rayos X"
+						},
+						"desc": {
+							"es": "El centro dispone de Equipo de rayos X",
+							"eu": "EU_El centro dispone de Equipo de rayos X"
+						},
+						"tipoPregunta": {
+							"es": null,
+							"eu": null
+						},
+						"respuesta": null,
+						"tipoRespuesta": "2",
+						"respuestaEstandar": null,
+						"observaciones": null
+					},
+					{
+						"idPregunta": 28,
+						"texto": {
+							"es": "Nº de equipos RX",
+							"eu": "EU_Nº de equipos RX"
+						},
+						"desc": {
+							"es": "Nº de equipos RX del centro",
+							"eu": "EU_Nº de equipos RX del centro"
+						},
+						"tipoPregunta": {
+							"es": null,
+							"eu": null
+						},
+						"respuesta": null,
+						"tipoRespuesta": "3",
+						"respuestaEstandar": null,
+						"observaciones": null
+					},
+					{
+						"idPregunta": 29,
+						"texto": {
+							"es": "Nº de equipos RX",
+							"eu": "EU_Nº de salas RX"
+						},
+						"desc": {
+							"es": "Nº de equipos RX del centro",
+							"eu": "EU_Nº de equipos RX del centro"
+						},
+						"tipoPregunta": {
+							"es": null,
+							"eu": null
+						},
+						"respuesta": null,
+						"tipoRespuesta": "3",
+						"respuestaEstandar": null,
+						"observaciones": null
+					},
+					{
+						"idPregunta": 30,
+						"texto": {
+							"es": "Existe un kit preparado para salidas de urgencias",
+							"eu": "EU_Existe un kit preparado para salidas de urgencias"
+						},
+						"desc": {
+							"es": "Existe un kit preparado para salidas de urgencias",
+							"eu": "EU_Existe un kit preparado para salidas de urgencias"
+						},
+						"tipoPregunta": {
+							"es": null,
+							"eu": null
+						},
+						"respuesta": null,
+						"tipoRespuesta": "1",
+						"respuestaEstandar": null,
+						"observaciones": null
+					},
+					{
+						"idPregunta": 31,
+						"texto": {
+							"es": "Existe procedimiento de actuación",
+							"eu": "EU_Existe procedimiento de actuación"
+						},
+						"desc": {
+							"es": "Existe procedimiento de actuación para Resucitación cardio-pulmonar",
+							"eu": "EU_Existe procedimiento de actuación para Resucitación cardio-pulmonar"
+						},
+						"tipoPregunta": {
+							"es": "Resucitación cardio-pulmonar",
+							"eu": "EU_Resucitación cardio-pulmonar"
+						},
+						"respuesta": null,
+						"tipoRespuesta": "1",
+						"respuestaEstandar": null,
+						"observaciones": null
+					},
+					{
+						"idPregunta": 32,
+						"texto": {
+							"es": "Formación del personal",
+							"eu": "Formación del personal"
+						},
+						"desc": {
+							"es": "Formación del personal en Resucitación cardio-pulmonar",
+							"eu": "EU_Formación del personal en Resucitación cardio-pulmonar"
+						},
+						"tipoPregunta": {
+							"es": "Resucitación cardio-pulmonar",
+							"eu": "EU_Resucitación cardio-pulmonar"
+						},
+						"respuesta": null,
+						"tipoRespuesta": "1",
+						"respuestaEstandar": null,
+						"observaciones": null
+					},
+					{
+						"idPregunta": 33,
+						"texto": {
+							"es": "Material Ambú",
+							"eu": "EU_Material Ambú"
+						},
+						"desc": {
+							"es": "El centro dispone de Ambú",
+							"eu": "EU_El centro dispone de Ambú"
+						},
+						"tipoPregunta": {
+							"es": "Resucitación cardio-pulmonar",
+							"eu": "EU_Resucitación cardio-pulmonar"
+						},
+						"respuesta": null,
+						"tipoRespuesta": "1",
+						"respuestaEstandar": null,
+						"observaciones": null
+					},
+					{
+						"idPregunta": 34,
+						"texto": {
+							"es": "Desfibrilador",
+							"eu": "EU_Desfibrilador"
+						},
+						"desc": {
+							"es": "El centro dispone de Desfibrilador",
+							"eu": "EU_El centro dispone de Desfibrilador"
+						},
+						"tipoPregunta": {
+							"es": "Resucitación cardio-pulmonar",
+							"eu": "EU_Resucitación cardio-pulmonar"
+						},
+						"respuesta": null,
+						"tipoRespuesta": "1",
+						"respuestaEstandar": null,
+						"observaciones": null
+					},
+					{
+						"idPregunta": 35,
+						"texto": {
+							"es": "Medicación",
+							"eu": "EU_Medicación"
+						},
+						"desc": {
+							"es": "El centro dispone de Medicación para Resucitación cardio-pulmonar",
+							"eu": "EU_El centro dispone de Medicación para Resucitación cardio-pulmonar"
+						},
+						"tipoPregunta": {
+							"es": "Resucitación cardio-pulmonar",
+							"eu": "EU_Resucitación cardio-pulmonar"
+						},
+						"respuesta": null,
+						"tipoRespuesta": "1",
+						"respuestaEstandar": null,
+						"observaciones": null
+					},
+					{
+						"idPregunta": 36,
+						"texto": {
+							"es": "Otros Materiales",
+							"eu": "EU_Otros Materiales"
+						},
+						"desc": {
+							"es": "Otros Materiales para Resucitación cardio-pulmonar",
+							"eu": "EU_Otros Materiales para Resucitación cardio-pulmonar"
+						},
+						"tipoPregunta": {
+							"es": "Resucitación cardio-pulmonar",
+							"eu": "EU_Resucitación cardio-pulmonar"
+						},
+						"respuesta": null,
+						"tipoRespuesta": "4",
+						"respuestaEstandar": null,
+						"observaciones": null
+					},
+					{
+						"idPregunta": 37,
+						"texto": {
+							"es": "Otro equipamiento",
+							"eu": "EU_Otro equipamiento"
+						},
+						"desc": {
+							"es": "Otro equipamiento del que disponga el centro",
+							"eu": "EU_Otro equipamiento del que disponga el centro"
+						},
+						"tipoPregunta": {
+							"es": null,
+							"eu": null
+						},
+						"respuesta": null,
+						"tipoRespuesta": "4",
+						"respuestaEstandar": null,
+						"observaciones": null
+					}
+				]
+			}
+		]
+}

@@ -11,7 +11,13 @@ var corsOptions = {
 }
 
 const inspectionsAll = require('./data/inspections.json');
-const inspection = require('./data/inspection.json');
+const inspection_1 = require('./data/inspection-1.json');
+const inspection_4 = require('./data/inspection-4.json');
+
+const singleInspections = {
+    '1': inspection_1,
+    '4': inspection_4
+}
 
 app.use(cors(corsOptions));
 
@@ -37,7 +43,7 @@ app.post(API_CALLS['allInspections'], (req, res) => {
 app.post(API_CALLS['getInspection'], (req, res) => {
     // req.params recoge los datos de la url
     let id = req.params.id;
-    res.send(inspection);
+    res.send(singleInspections[id]);
 });
 
 // app.post('/addname', (req, res) => {
